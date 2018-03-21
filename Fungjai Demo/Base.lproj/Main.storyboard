@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,108 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fungjai_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6pk-we-tka">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="track" rowHeight="100" id="Cmv-Cg-Ivv" customClass="TrackTableViewCell" customModule="Fungjai_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cmv-Cg-Ivv" id="6fq-ze-9pF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRW-mG-lnI">
+                                                    <rect key="frame" x="126" y="8" width="234" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JBq-tG-lzK">
+                                                    <rect key="frame" x="15" y="5" width="90" height="90"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="90" id="MyL-5l-bK4"/>
+                                                        <constraint firstAttribute="width" constant="90" id="eay-aU-lY3"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="JBq-tG-lzK" firstAttribute="leading" secondItem="6fq-ze-9pF" secondAttribute="leading" constant="15" id="Aip-qR-YgC"/>
+                                                <constraint firstAttribute="trailing" secondItem="hRW-mG-lnI" secondAttribute="trailing" constant="15" id="Elc-Iw-MMc"/>
+                                                <constraint firstItem="hRW-mG-lnI" firstAttribute="leading" secondItem="JBq-tG-lzK" secondAttribute="trailing" constant="21" id="gCx-K4-qg5"/>
+                                                <constraint firstItem="JBq-tG-lzK" firstAttribute="top" secondItem="hRW-mG-lnI" secondAttribute="bottom" constant="-21" id="l6X-vE-DP8"/>
+                                                <constraint firstItem="JBq-tG-lzK" firstAttribute="centerY" secondItem="6fq-ze-9pF" secondAttribute="centerY" id="qYQ-ba-4v0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="albumCover" destination="JBq-tG-lzK" id="2h3-vW-y7s"/>
+                                            <outlet property="titleLabel" destination="hRW-mG-lnI" id="8dY-au-ihW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="video" rowHeight="165" id="4a1-0K-72L" customClass="VideoTableViewCell" customModule="Fungjai_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="128" width="375" height="165"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4a1-0K-72L" id="MjU-Sp-CDf">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="164.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dPB-yX-XRF">
+                                                    <rect key="frame" x="4" y="4" width="367" height="156.5"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dPB-yX-XRF" firstAttribute="centerX" secondItem="MjU-Sp-CDf" secondAttribute="centerX" id="aGZ-rP-vV9"/>
+                                                <constraint firstItem="dPB-yX-XRF" firstAttribute="leading" secondItem="MjU-Sp-CDf" secondAttribute="leading" constant="4" id="eRc-8O-Bx8"/>
+                                                <constraint firstItem="dPB-yX-XRF" firstAttribute="top" secondItem="MjU-Sp-CDf" secondAttribute="top" constant="4" id="gTh-7w-XYD"/>
+                                                <constraint firstItem="dPB-yX-XRF" firstAttribute="centerY" secondItem="MjU-Sp-CDf" secondAttribute="centerY" id="yS5-uY-Tow"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoImage" destination="dPB-yX-XRF" id="gs6-2A-ahe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ads" rowHeight="76" id="LUp-w5-cb9" customClass="AdsTableViewCell" customModule="Fungjai_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="293" width="375" height="76"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LUp-w5-cb9" id="Ssn-Yb-MeH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="75.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cfH-wU-uYA">
+                                                    <rect key="frame" x="4" y="4" width="367" height="68"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cfH-wU-uYA" firstAttribute="centerY" secondItem="Ssn-Yb-MeH" secondAttribute="centerY" id="Ogj-GV-OfY"/>
+                                                <constraint firstItem="cfH-wU-uYA" firstAttribute="top" secondItem="Ssn-Yb-MeH" secondAttribute="top" constant="4" id="PO0-hM-jGc"/>
+                                                <constraint firstItem="cfH-wU-uYA" firstAttribute="leading" secondItem="Ssn-Yb-MeH" secondAttribute="leading" constant="4" id="Spa-rV-PJS"/>
+                                                <constraint firstItem="cfH-wU-uYA" firstAttribute="centerX" secondItem="Ssn-Yb-MeH" secondAttribute="centerX" id="soJ-49-6BK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="adsImage" destination="cfH-wU-uYA" id="nTg-nn-1qQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mainTable" destination="6pk-we-tka" id="HhF-Yh-aeR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.97647058823529409" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

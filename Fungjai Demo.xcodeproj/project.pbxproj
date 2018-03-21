@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A85BFF73C8B25294BEF3EB /* Pods_Fungjai_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF0E247B4E5F9850849317C /* Pods_Fungjai_DemoTests.framework */; };
+		6823487B20622A710084314B /* FungjaiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823487A20622A710084314B /* FungjaiObject.swift */; };
+		6823487E20622D0B0084314B /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823487D20622D0B0084314B /* VideoTableViewCell.swift */; };
+		6823488120622D300084314B /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823488020622D300084314B /* TrackTableViewCell.swift */; };
+		6823488320622D480084314B /* AdsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6823488220622D480084314B /* AdsTableViewCell.swift */; };
 		6895C17420620DC500936C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C17320620DC500936C15 /* AppDelegate.swift */; };
 		6895C17620620DC500936C15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C17520620DC500936C15 /* ViewController.swift */; };
 		6895C17920620DC500936C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6895C17720620DC500936C15 /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		6895C17E20620DC500936C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6895C17C20620DC500936C15 /* LaunchScreen.storyboard */; };
 		6895C18920620DC500936C15 /* Fungjai_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C18820620DC500936C15 /* Fungjai_DemoTests.swift */; };
 		6895C19420620DC600936C15 /* Fungjai_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C19320620DC600936C15 /* Fungjai_DemoUITests.swift */; };
+		A431D9540933CD6DE819BEA5 /* Pods_Fungjai_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C233EC234A2D5EFCAD9E7C /* Pods_Fungjai_DemoUITests.framework */; };
+		E8A8D88105262DC61C93A427 /* Pods_Fungjai_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0134DED8B3EA1247F41327FA /* Pods_Fungjai_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0134DED8B3EA1247F41327FA /* Pods_Fungjai_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fungjai_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A371A31A65AB82B1840C44 /* Pods-Fungjai Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fungjai Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fungjai Demo/Pods-Fungjai Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		17DF8190A51E8A6F32A50F37 /* Pods-Fungjai DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fungjai DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fungjai DemoUITests/Pods-Fungjai DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43823743D9355974C232B1F1 /* Pods-Fungjai DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fungjai DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fungjai DemoTests/Pods-Fungjai DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6823487A20622A710084314B /* FungjaiObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungjaiObject.swift; sourceTree = "<group>"; };
+		6823487D20622D0B0084314B /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		6823488020622D300084314B /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		6823488220622D480084314B /* AdsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTableViewCell.swift; sourceTree = "<group>"; };
 		6895C17020620DC500936C15 /* Fungjai Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fungjai Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6895C17320620DC500936C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6895C17520620DC500936C15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,11 @@
 		6895C18F20620DC600936C15 /* Fungjai DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fungjai DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6895C19320620DC600936C15 /* Fungjai_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fungjai_DemoUITests.swift; sourceTree = "<group>"; };
 		6895C19520620DC600936C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1BD8844676C926690757B6 /* Pods-Fungjai DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fungjai DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fungjai DemoUITests/Pods-Fungjai DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF0E247B4E5F9850849317C /* Pods_Fungjai_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fungjai_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24250E8EF4755D370CA6B75 /* Pods-Fungjai Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fungjai Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fungjai Demo/Pods-Fungjai Demo.release.xcconfig"; sourceTree = "<group>"; };
+		E4C233EC234A2D5EFCAD9E7C /* Pods_Fungjai_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fungjai_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA265DDF76F17059B6CD7ACF /* Pods-Fungjai DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fungjai DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fungjai DemoTests/Pods-Fungjai DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A8D88105262DC61C93A427 /* Pods_Fungjai_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A85BFF73C8B25294BEF3EB /* Pods_Fungjai_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A431D9540933CD6DE819BEA5 /* Pods_Fungjai_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29505D77968A46A0883E7BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A371A31A65AB82B1840C44 /* Pods-Fungjai Demo.debug.xcconfig */,
+				E24250E8EF4755D370CA6B75 /* Pods-Fungjai Demo.release.xcconfig */,
+				43823743D9355974C232B1F1 /* Pods-Fungjai DemoTests.debug.xcconfig */,
+				EA265DDF76F17059B6CD7ACF /* Pods-Fungjai DemoTests.release.xcconfig */,
+				8B1BD8844676C926690757B6 /* Pods-Fungjai DemoUITests.debug.xcconfig */,
+				17DF8190A51E8A6F32A50F37 /* Pods-Fungjai DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6823487C20622C600084314B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6823487A20622A710084314B /* FungjaiObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6823487F20622D110084314B /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6823487D20622D0B0084314B /* VideoTableViewCell.swift */,
+				6823488020622D300084314B /* TrackTableViewCell.swift */,
+				6823488220622D480084314B /* AdsTableViewCell.swift */,
+			);
+			name = TableCell;
+			path = ../TableCell;
+			sourceTree = "<group>";
+		};
 		6895C16720620DC500936C15 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				6895C18720620DC500936C15 /* Fungjai DemoTests */,
 				6895C19220620DC600936C15 /* Fungjai DemoUITests */,
 				6895C17120620DC500936C15 /* Products */,
+				29505D77968A46A0883E7BA8 /* Pods */,
+				A1CFB73B872B687FFFEA11D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +157,8 @@
 				6895C17320620DC500936C15 /* AppDelegate.swift */,
 				6895C17520620DC500936C15 /* ViewController.swift */,
 				6895C17720620DC500936C15 /* Main.storyboard */,
+				6823487F20622D110084314B /* TableCell */,
+				6823487C20622C600084314B /* Model */,
 				6895C17A20620DC500936C15 /* Assets.xcassets */,
 				6895C17C20620DC500936C15 /* LaunchScreen.storyboard */,
 				6895C17F20620DC500936C15 /* Info.plist */,
@@ -125,6 +184,16 @@
 			path = "Fungjai DemoUITests";
 			sourceTree = "<group>";
 		};
+		A1CFB73B872B687FFFEA11D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0134DED8B3EA1247F41327FA /* Pods_Fungjai_Demo.framework */,
+				8EF0E247B4E5F9850849317C /* Pods_Fungjai_DemoTests.framework */,
+				E4C233EC234A2D5EFCAD9E7C /* Pods_Fungjai_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6895C19820620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai Demo" */;
 			buildPhases = (
+				4AEAEBE5C89B3E645976AF11 /* [CP] Check Pods Manifest.lock */,
 				6895C16C20620DC500936C15 /* Sources */,
 				6895C16D20620DC500936C15 /* Frameworks */,
 				6895C16E20620DC500936C15 /* Resources */,
+				6257429AD26DAEC063311F20 /* [CP] Embed Pods Frameworks */,
+				17B073E7DD930A0C4C41A84E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6895C19B20620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai DemoTests" */;
 			buildPhases = (
+				F3BA65F2F9076F0CF0C4A7CA /* [CP] Check Pods Manifest.lock */,
 				6895C18020620DC500936C15 /* Sources */,
 				6895C18120620DC500936C15 /* Frameworks */,
 				6895C18220620DC500936C15 /* Resources */,
+				6A7E4A864A3845B8FB4B2097 /* [CP] Embed Pods Frameworks */,
+				873BB48E698A31B12856022E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6895C19E20620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai DemoUITests" */;
 			buildPhases = (
+				23ED428DB9F404200550C7BC /* [CP] Check Pods Manifest.lock */,
 				6895C18B20620DC600936C15 /* Sources */,
 				6895C18C20620DC600936C15 /* Frameworks */,
 				6895C18D20620DC600936C15 /* Resources */,
+				36E9F7EB5889588188D4C238 /* [CP] Embed Pods Frameworks */,
+				31772B675222F64A816A8B8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +332,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B073E7DD930A0C4C41A84E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fungjai Demo/Pods-Fungjai Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23ED428DB9F404200550C7BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31772B675222F64A816A8B8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fungjai DemoUITests/Pods-Fungjai DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E9F7EB5889588188D4C238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fungjai DemoUITests/Pods-Fungjai DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AEAEBE5C89B3E645976AF11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6257429AD26DAEC063311F20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fungjai Demo/Pods-Fungjai Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A7E4A864A3845B8FB4B2097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fungjai DemoTests/Pods-Fungjai DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873BB48E698A31B12856022E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fungjai DemoTests/Pods-Fungjai DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BA65F2F9076F0CF0C4A7CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6895C16C20620DC500936C15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6823488120622D300084314B /* TrackTableViewCell.swift in Sources */,
 				6895C17620620DC500936C15 /* ViewController.swift in Sources */,
+				6823487E20622D0B0084314B /* VideoTableViewCell.swift in Sources */,
 				6895C17420620DC500936C15 /* AppDelegate.swift in Sources */,
+				6823488320622D480084314B /* AdsTableViewCell.swift in Sources */,
+				6823487B20622A710084314B /* FungjaiObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +644,7 @@
 		};
 		6895C19920620DC600936C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A371A31A65AB82B1840C44 /* Pods-Fungjai Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +660,7 @@
 		};
 		6895C19A20620DC600936C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24250E8EF4755D370CA6B75 /* Pods-Fungjai Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +676,7 @@
 		};
 		6895C19C20620DC600936C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43823743D9355974C232B1F1 /* Pods-Fungjai DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +694,7 @@
 		};
 		6895C19D20620DC600936C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA265DDF76F17059B6CD7ACF /* Pods-Fungjai DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +712,7 @@
 		};
 		6895C19F20620DC600936C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1BD8844676C926690757B6 /* Pods-Fungjai DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +729,7 @@
 		};
 		6895C1A020620DC600936C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DF8190A51E8A6F32A50F37 /* Pods-Fungjai DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
