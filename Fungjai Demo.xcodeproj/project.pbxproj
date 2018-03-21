@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6895C17420620DC500936C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C17320620DC500936C15 /* AppDelegate.swift */; };
+		6895C17620620DC500936C15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C17520620DC500936C15 /* ViewController.swift */; };
+		6895C17920620DC500936C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6895C17720620DC500936C15 /* Main.storyboard */; };
+		6895C17B20620DC500936C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6895C17A20620DC500936C15 /* Assets.xcassets */; };
+		6895C17E20620DC500936C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6895C17C20620DC500936C15 /* LaunchScreen.storyboard */; };
+		6895C18920620DC500936C15 /* Fungjai_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C18820620DC500936C15 /* Fungjai_DemoTests.swift */; };
+		6895C19420620DC600936C15 /* Fungjai_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6895C19320620DC600936C15 /* Fungjai_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6895C18520620DC500936C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6895C16820620DC500936C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6895C16F20620DC500936C15;
+			remoteInfo = "Fungjai Demo";
+		};
+		6895C19020620DC600936C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6895C16820620DC500936C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6895C16F20620DC500936C15;
+			remoteInfo = "Fungjai Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6895C17020620DC500936C15 /* Fungjai Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fungjai Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6895C17320620DC500936C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6895C17520620DC500936C15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6895C17820620DC500936C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6895C17A20620DC500936C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6895C17D20620DC500936C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6895C17F20620DC500936C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6895C18420620DC500936C15 /* Fungjai DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fungjai DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6895C18820620DC500936C15 /* Fungjai_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fungjai_DemoTests.swift; sourceTree = "<group>"; };
+		6895C18A20620DC500936C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6895C18F20620DC600936C15 /* Fungjai DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fungjai DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6895C19320620DC600936C15 /* Fungjai_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fungjai_DemoUITests.swift; sourceTree = "<group>"; };
+		6895C19520620DC600936C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6895C16D20620DC500936C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895C18120620DC500936C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895C18C20620DC600936C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6895C16720620DC500936C15 = {
+			isa = PBXGroup;
+			children = (
+				6895C17220620DC500936C15 /* Fungjai Demo */,
+				6895C18720620DC500936C15 /* Fungjai DemoTests */,
+				6895C19220620DC600936C15 /* Fungjai DemoUITests */,
+				6895C17120620DC500936C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6895C17120620DC500936C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6895C17020620DC500936C15 /* Fungjai Demo.app */,
+				6895C18420620DC500936C15 /* Fungjai DemoTests.xctest */,
+				6895C18F20620DC600936C15 /* Fungjai DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6895C17220620DC500936C15 /* Fungjai Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6895C17320620DC500936C15 /* AppDelegate.swift */,
+				6895C17520620DC500936C15 /* ViewController.swift */,
+				6895C17720620DC500936C15 /* Main.storyboard */,
+				6895C17A20620DC500936C15 /* Assets.xcassets */,
+				6895C17C20620DC500936C15 /* LaunchScreen.storyboard */,
+				6895C17F20620DC500936C15 /* Info.plist */,
+			);
+			path = "Fungjai Demo";
+			sourceTree = "<group>";
+		};
+		6895C18720620DC500936C15 /* Fungjai DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6895C18820620DC500936C15 /* Fungjai_DemoTests.swift */,
+				6895C18A20620DC500936C15 /* Info.plist */,
+			);
+			path = "Fungjai DemoTests";
+			sourceTree = "<group>";
+		};
+		6895C19220620DC600936C15 /* Fungjai DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6895C19320620DC600936C15 /* Fungjai_DemoUITests.swift */,
+				6895C19520620DC600936C15 /* Info.plist */,
+			);
+			path = "Fungjai DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6895C16F20620DC500936C15 /* Fungjai Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6895C19820620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai Demo" */;
+			buildPhases = (
+				6895C16C20620DC500936C15 /* Sources */,
+				6895C16D20620DC500936C15 /* Frameworks */,
+				6895C16E20620DC500936C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fungjai Demo";
+			productName = "Fungjai Demo";
+			productReference = 6895C17020620DC500936C15 /* Fungjai Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6895C18320620DC500936C15 /* Fungjai DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6895C19B20620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai DemoTests" */;
+			buildPhases = (
+				6895C18020620DC500936C15 /* Sources */,
+				6895C18120620DC500936C15 /* Frameworks */,
+				6895C18220620DC500936C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6895C18620620DC500936C15 /* PBXTargetDependency */,
+			);
+			name = "Fungjai DemoTests";
+			productName = "Fungjai DemoTests";
+			productReference = 6895C18420620DC500936C15 /* Fungjai DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6895C18E20620DC600936C15 /* Fungjai DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6895C19E20620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai DemoUITests" */;
+			buildPhases = (
+				6895C18B20620DC600936C15 /* Sources */,
+				6895C18C20620DC600936C15 /* Frameworks */,
+				6895C18D20620DC600936C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6895C19120620DC600936C15 /* PBXTargetDependency */,
+			);
+			name = "Fungjai DemoUITests";
+			productName = "Fungjai DemoUITests";
+			productReference = 6895C18F20620DC600936C15 /* Fungjai DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6895C16820620DC500936C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fungjai;
+				TargetAttributes = {
+					6895C16F20620DC500936C15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6895C18320620DC500936C15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6895C16F20620DC500936C15;
+					};
+					6895C18E20620DC600936C15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6895C16F20620DC500936C15;
+					};
+				};
+			};
+			buildConfigurationList = 6895C16B20620DC500936C15 /* Build configuration list for PBXProject "Fungjai Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6895C16720620DC500936C15;
+			productRefGroup = 6895C17120620DC500936C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6895C16F20620DC500936C15 /* Fungjai Demo */,
+				6895C18320620DC500936C15 /* Fungjai DemoTests */,
+				6895C18E20620DC600936C15 /* Fungjai DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6895C16E20620DC500936C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6895C17E20620DC500936C15 /* LaunchScreen.storyboard in Resources */,
+				6895C17B20620DC500936C15 /* Assets.xcassets in Resources */,
+				6895C17920620DC500936C15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895C18220620DC500936C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895C18D20620DC600936C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6895C16C20620DC500936C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6895C17620620DC500936C15 /* ViewController.swift in Sources */,
+				6895C17420620DC500936C15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895C18020620DC500936C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6895C18920620DC500936C15 /* Fungjai_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895C18B20620DC600936C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6895C19420620DC600936C15 /* Fungjai_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6895C18620620DC500936C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6895C16F20620DC500936C15 /* Fungjai Demo */;
+			targetProxy = 6895C18520620DC500936C15 /* PBXContainerItemProxy */;
+		};
+		6895C19120620DC600936C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6895C16F20620DC500936C15 /* Fungjai Demo */;
+			targetProxy = 6895C19020620DC600936C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6895C17720620DC500936C15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6895C17820620DC500936C15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6895C17C20620DC500936C15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6895C17D20620DC500936C15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6895C19620620DC600936C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6895C19720620DC600936C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6895C19920620DC600936C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = "Fungjai Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fungjai.Fungjai-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6895C19A20620DC600936C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = "Fungjai Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fungjai.Fungjai-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6895C19C20620DC600936C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = "Fungjai DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fungjai.Fungjai-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fungjai Demo.app/Fungjai Demo";
+			};
+			name = Debug;
+		};
+		6895C19D20620DC600936C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = "Fungjai DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fungjai.Fungjai-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fungjai Demo.app/Fungjai Demo";
+			};
+			name = Release;
+		};
+		6895C19F20620DC600936C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = "Fungjai DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fungjai.Fungjai-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fungjai Demo";
+			};
+			name = Debug;
+		};
+		6895C1A020620DC600936C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = "Fungjai DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fungjai.Fungjai-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fungjai Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6895C16B20620DC500936C15 /* Build configuration list for PBXProject "Fungjai Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6895C19620620DC600936C15 /* Debug */,
+				6895C19720620DC600936C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6895C19820620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6895C19920620DC600936C15 /* Debug */,
+				6895C19A20620DC600936C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6895C19B20620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6895C19C20620DC600936C15 /* Debug */,
+				6895C19D20620DC600936C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6895C19E20620DC600936C15 /* Build configuration list for PBXNativeTarget "Fungjai DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6895C19F20620DC600936C15 /* Debug */,
+				6895C1A020620DC600936C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6895C16820620DC500936C15 /* Project object */;
+}
