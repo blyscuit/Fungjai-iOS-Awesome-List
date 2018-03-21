@@ -23,53 +23,10 @@ class ViewController: UIViewController {
 		self.mainTable.delegate = self
 		self.mainTable.es.addPullToRefresh {
 			[unowned self] in
-//			self.loadData()
-			if self.MyAPI.resource("/seed.json").loadIfNeeded() == nil {
-				self.mainTable.es.stopPullToRefresh()
-			}
+			self.loadData()
 		}
 		
-//		loadData()
-		
-		MyAPI.resource("/seed.json").addObserver(owner: self) {
-			[weak self] resource, event in
-			guard let _self = self else {
-				DispatchQueue.main.async {
-					self?.mainTable.es.stopPullToRefresh()
-					let alert = UIAlertController(title: "Error", message: "Something went wrong, try again later.", preferredStyle: UIAlertControllerStyle.alert)
-					alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
-					self?.present(alert, animated: true, completion: nil)
-				}
-				return
-			}
-			if let error = resource.latestError {
-				let alert = UIAlertController(title: "Error", message: error.userMessage, preferredStyle: UIAlertControllerStyle.alert)
-				alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
-				_self.present(alert, animated: true, completion: nil)
-				_self.mainTable.es.stopPullToRefresh()
-			} else {
-				_self.tableDataArray.removeAll()
-				for obj in resource.jsonArray as! [Dictionary<String, AnyObject>] {
-					let typeDescription = obj["type"] as? String ?? ""
-					switch typeDescription {
-					case "track":
-						_self.tableDataArray.append(FungjaiTrack(dictionary: obj))
-					case "ads":
-						_self.tableDataArray.append(FungjaiAds(dictionary: obj))
-					case "video":
-						_self.tableDataArray.append(FungjaiVideo(dictionary: obj))
-					default:
-						_self.tableDataArray.append(FungjaiVideo(dictionary: obj))
-					}
-				}
-				DispatchQueue.main.async {
-					_self.mainTable.reloadData()
-					_self.mainTable.es.stopPullToRefresh()
-				}
-				UIApplication.shared.isNetworkActivityIndicatorVisible = resource.isLoading
-			}
-		}
-		MyAPI.resource("/seed.json").loadIfNeeded()
+		loadData()
 
 	}
 
